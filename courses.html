@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Courses – Prashanth's Networking and Cybersecurity Institute</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background:#050816; color:#f5f5f5; }
+    header { padding: 40px 20px; text-align: center; background: linear-gradient(135deg,#0a1f44,#7f00ff); }
+    h1 { margin: 0; font-size: 2.4rem; }
+    h2 { color:#00a8ff; }
+    h3 { color:#7f00ff; }
+    section { padding:40px 20px; max-width:1000px; margin:0 auto; }
+    .card { background:#0b1220; border-radius:10px; padding:20px; margin-bottom:20px; border:1px solid #1e293b; }
+    nav { background:#020617; padding:10px 20px; text-align:center; }
+    nav a { color:#00a8ff; margin:0 10px; text-decoration:none; font-weight:bold; }
+    footer { text-align:center; padding:20px; background:#020617; font-size:0.9rem; color:#9ca3af; }
+    ul { line-height:1.6; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>CCNA Training</h1>
+  <p>Prashanth's Networking and Cybersecurity Institute</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="courses.html">Courses</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+
+  <div class="card">
+    <h2>1. Network Fundamentals — 20%</h2>
+    <h3>Key Topics Include:</h3>
+    <ul>
+      <li>Role and function of routers, L2/L3 switches, firewalls, access points, controllers, servers, endpoints, PoE</li>
+      <li>Network topologies: two‑tier, three‑tier, spine‑leaf, WAN, SOHO, on‑premises/cloud</li>
+      <li>Cabling types: single‑mode fiber, multimode fiber, copper; Ethernet shared media vs point‑to‑point</li>
+      <li>Interface/cable issues: collisions, errors, duplex/speed mismatch</li>
+      <li>TCP vs UDP</li>
+      <li>IPv4 addressing, subnetting, private addressing</li>
+      <li>IPv6 addressing, prefixes, address types (unicast, anycast, multicast, EUI‑64)</li>
+      <li>Wireless principles: channels, SSID, RF, encryption</li>
+      <li>Virtualization fundamentals: server virtualization, containers, VRFs</li>
+      <li>Switching concepts: MAC learning, aging, frame switching, flooding, MAC table</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>2. Network Access — 20%</h2>
+    <ul>
+      <li>VLANs (normal range), access/voice ports, default VLAN, inter‑VLAN connectivity</li>
+      <li>Interswitch connectivity: trunk ports, 802.1Q, native VLAN</li>
+      <li>Layer 2 discovery protocols: CDP, LLDP</li>
+      <li>EtherChannel (LACP)</li>
+      <li>Rapid PVST+ STP: root bridge, port roles/states, PortFast, root guard, loop guard, BPDU guard/filter</li>
+      <li>Cisco wireless architecture, AP modes, WLC connections, WLAN components</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>3. IP Connectivity — 25%</h2>
+    <ul>
+      <li>Routing table interpretation</li>
+      <li>Router forwarding decisions</li>
+      <li>Static routing (IPv4/IPv6)</li>
+      <li>OSPFv2 single‑area: neighbor adjacency, point‑to‑point vs broadcast, router ID</li>
+      <li>First‑hop redundancy (HSRP)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. IP Services — 10%</h2>
+    <ul>
+      <li>NAT (static, PAT)</li>
+      <li>NTP</li>
+      <li>DHCP, DNS</li>
+      <li>SNMP, syslog</li>
+      <li>QoS (per‑hop behavior)</li>
+      <li>SSH</li>
+      <li>TFTP/FTP functions</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>5. Security Fundamentals — 15%</h2>
+    <ul>
+      <li>Threats, vulnerabilities, exploits</li>
+      <li>Security program components</li>
+      <li>Device access control, password policies</li>
+      <li>VPNs (remote access, site‑to‑site)</li>
+      <li>ACLs</li>
+      <li>Layer‑2 security: port security, DHCP snooping, dynamic ARP inspection</li>
+      <li>Wireless security: WPA2/WPA3</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>6. Automation & Programmability — 10%</h2>
+    <ul>
+      <li>Traditional vs controller‑based networking</li>
+      <li>REST APIs</li>
+      <li>JSON</li>
+      <li>Automation tools (Ansible, Terraform) at recognition level</li>
+    </ul>
+  </div>
+
+</section>
+
+<footer>
+  &copy; <span id="year"></span> Prashanth's Networking and Cybersecurity Institute. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
