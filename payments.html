@@ -11,10 +11,36 @@
       font-family: 'Segoe UI', sans-serif;
       text-align: center;
     }
-    h1 {
+
+    /* Logo */
+    .logo {
+      width: 180px;
+      margin-top: 20px;
+      filter: drop-shadow(0 0 10px #8a2be2);
+    }
+
+    /* Navigation */
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #00eaff;
+      text-shadow: 0 0 8px #00eaff;
+      margin: 0 15px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    nav a:hover {
       color: #8a2be2;
       text-shadow: 0 0 10px #8a2be2;
     }
+
+    h1 {
+      color: #8a2be2;
+      text-shadow: 0 0 10px #8a2be2;
+      margin-top: 30px;
+    }
+
     table {
       width: 90%;
       margin: 30px auto;
@@ -32,6 +58,7 @@
     tr:hover {
       background-color: #111;
     }
+
     .pay-button {
       background-color: #00eaff;
       color: #000;
@@ -50,6 +77,18 @@
 </head>
 <body>
 
+  <!-- Logo -->
+  <img src="logo.png" alt="PNCI Logo" class="logo">
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+    <a href="payments.html">Payments</a>
+  </nav>
+
   <h1>PNCI Course Fee Payment</h1>
 
   <table>
@@ -63,59 +102,3 @@
     <tr>
       <td>Networking Fundamentals</td>
       <td>3 Months</td>
-      <td>299</td>
-      <td>
-        <a href="https://buy.stripe.com/YOUR_LINK_NETWORKING" target="_blank">
-          <button class="pay-button">Pay by Card</button>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td>Cybersecurity Fundamentals</td>
-      <td>3 Months</td>
-      <td>399</td>
-      <td>
-        <a href="https://buy.stripe.com/YOUR_LINK_CYBER" target="_blank">
-          <button class="pay-button">Pay by Card</button>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td>AWS AI / Cloud Practitioner</td>
-      <td>2 Months</td>
-      <td>349</td>
-      <td>
-        <a href="https://buy.stripe.com/YOUR_LINK_AWS" target="_blank">
-          <button class="pay-button">Pay by Card</button>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td>CCNA / CCNP / CCIE Training</td>
-      <td>4 Months</td>
-      <td>699</td>
-      <td>
-        <a href="https://buy.stripe.com/YOUR_LINK_CCNA" target="_blank">
-          <button class="pay-button">Pay by Card</button>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td>CEH / CISSP</td>
-      <td>4 Months</td>
-      <td>799</td>
-      <td>
-        <a href="https://buy.stripe.com/YOUR_LINK_CEH" target="_blank">
-          <button class="pay-button">Pay by Card</button>
-        </a>
-      </td>
-    </tr>
-
-  </table>
-
-</body>
-</html>
